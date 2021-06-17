@@ -57,8 +57,6 @@ fetch(`https://user-manager-three.vercel.app/api/user/login`, {
                  placeholder="Username"
                  className='input-box'
                  {...register('userName', {required: true })}
-                //  value={userName}
-                //  onChange={(e) => setUserName(e.target.value)}
                 />
                 <input
                  type="text"
@@ -66,8 +64,6 @@ fetch(`https://user-manager-three.vercel.app/api/user/login`, {
                 placeholder="E-mail"
                  className='input-box'
                  {...register('email', {required: true })}
-                //  value={email}
-                //  onChange={(e) => setEmail(e.target.value)}
                 />
                 <input
                  type="password"
@@ -75,8 +71,6 @@ fetch(`https://user-manager-three.vercel.app/api/user/login`, {
                  placeholder="Password" 
                 className='input-box'
                 {...register('password', {required: true })}
-                // value={password}
-                // onChange={(e) => setPassword(e.target.value)}
                 />
                 
 
