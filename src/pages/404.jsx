@@ -7,7 +7,7 @@ const ErrorPage = () => {
             <h2 className="error2"> Page not found</h2>
 
             <div className='error2'>
-                <a href="/home"> click to go Back to todo</a>
+                <a href="/login"> click to go Back to todo</a>
             </div>
         </div>
     );
