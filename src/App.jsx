@@ -109,7 +109,7 @@ class App extends Component {
 
                 
                    <Route >
-                  <Register exact path="/"/>
+                  <Register exact path="/register"/>
                 </Route>
 
                 <Route
@@ -139,7 +139,6 @@ class App extends Component {
                 <Route>
                   <ErrorPage />
                 </Route>
-               
               </Switch>
             </div>
           </div>
