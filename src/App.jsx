@@ -108,8 +108,8 @@ class App extends Component {
               
 
                 
-                   <Route >
-                  <Register exact path="/register"/>
+                   <Route exact path ="/register" >
+                  <Register/>
                 </Route>
 
                 <Route
