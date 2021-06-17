@@ -41,26 +41,7 @@ const Register = () => {
                 alert('An error occurred, try later')
             })
 
-        history.push('/home');
-
-       
-            
-        
-        
-    //  fetch(('https://jsonplaceholder.typicode.com/posts?userId'), {
-    //         method: 'POST',
-    //         body: JSON.stringify({ 
-    //             userName: userName,
-    //             email : email,
-    //             password : password,
-    //            confirmPassword : confirmPassword 
-    //          }),
-    //         headers: {
-    //             'Content-type': 'application/json; charset=UTF-8',
-    //         },
-    //     })
-    //     .then(() =>{ console.log('Done')});
-       
+        history.push('/home'); 
        
       };
     
@@ -69,7 +50,7 @@ const Register = () => {
     <>
         <div id="login-box">
             <div className="left">
-                <h1>Sign up</h1>
+                <h1> Sign up </h1>
             <form onSubmit={handleSubmit(registerUser)}>
 
                 <input
