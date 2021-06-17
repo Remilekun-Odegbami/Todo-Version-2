@@ -1,0 +1,16 @@
+#input {
+  font-size: 1.2em;
+}
+
+#input:focus {
+  outline: 0;
+  border: 2px solid grey;
+}
+
+.crossed-line {
+  text-decoration: line-through;
+}
+
+body {
+  background-color: red;
+}
