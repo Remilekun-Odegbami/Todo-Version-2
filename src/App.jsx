@@ -98,13 +98,18 @@ class App extends Component {
             <div className="col-10 mx-auto col-md-8 mt-4">
               {/* this will render the Register Component page */}
               <Switch>
-                <Route>
-                  <Register />
-                </Route>
+             
 
                 {/* this will render the Register Component page */}
                 <Route exact path="/login">
                   <Login />
+                </Route>
+
+              
+
+                
+                   <Route >
+                  <Register exact path="/"/>
                 </Route>
 
                 <Route
@@ -129,10 +134,12 @@ class App extends Component {
                     </React.Fragment>
                   )}
                 />
-                {/* render error page if page not found */}
+
+                   {/* render error page if page not found */}
                 <Route>
-                  <ErrorPage  exact path="/errorPage"/>
+                  <ErrorPage />
                 </Route>
+               
               </Switch>
             </div>
           </div>
