@@ -98,7 +98,7 @@ class App extends Component {
             <div className="col-10 mx-auto col-md-8 mt-4">
               {/* this will render the Register Component page */}
               <Switch>
-                <Route exact path="/register">
+                <Route>
                   <Register />
                 </Route>
 
@@ -131,7 +131,7 @@ class App extends Component {
                 />
                 {/* render error page if page not found */}
                 <Route>
-                  <ErrorPage />
+                  <ErrorPage  exact path="/errorPage"/>
                 </Route>
               </Switch>
             </div>
